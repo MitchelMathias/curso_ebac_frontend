@@ -1,0 +1,2 @@
+AOS.init({});const dataEvent=new Date("2026-12-12 19:00:00"),timesTempEvent=dataEvent.getTime(),contaHoras=setInterval(()=>{let e=timesTempEvent-new Date().getTime(),t=Math.floor(e/864e5),n=Math.floor(e%864e5/36e5),o=Math.floor(e%36e5/6e4),a=Math.floor(e%6e4/1e3);document.getElementById("contador").innerHTML=`${t}d ${n}h ${o}min ${a}s`,e<=0&&(clearInterval(contaHoras),document.getElementById("contador").innerHTML="Evento Expirado")},1e3);
+//# sourceMappingURL=projeto_05.049e6129.js.map

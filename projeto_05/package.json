@@ -4,6 +4,7 @@
   "description": "",
   "scripts": {
     "parcel": "parcel src/index.html src/styles/main.less src/scripts/main.js",
+    "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
